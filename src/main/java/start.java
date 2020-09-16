@@ -7,24 +7,19 @@ public class start {
 
     public class AgenteVendedor extends Agent {
     }
-    
+
     public static void main(String[] args) {
 
         // Inicia a G.U.I. para o JADE
         String[] parametros = {
-                "-gui",
-                "-local-host",
-                "127.0.0.1",
-                "comprador:AgenteComprador()",
-        };
+                "-gui", "-local-host", "127.0.0.1",
+                "comprador:AgenteComprador()",};
         jade.Boot.main(parametros);
 
-        // Iniciando o container
         String[] novoContainer = {
-                "-local-host", "127.0.0.1",
-                "-container", "-container-name",
-                "Container-Almeida", "vendedor:AgenteVendedor()"};
+                "-local-host", "127.0.0.1", "-container",
+                "-container-name", "Meu-Container",
+                "vendedor:AgenteVendedor()"};
         jade.Boot.main(novoContainer);
     }
-
 }
