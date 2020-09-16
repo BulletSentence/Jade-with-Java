@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b67a537-d0f4-44ba-a1b1-51582ef2d847" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jade-4.5.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -30,6 +29,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="1hbHcLbT6uRQm3Uv7tn9xefrUTL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,13 +40,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CODE\JAVA\JadeJava\src\lib" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -82,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600272949993</updated>
-      <workItem from="1600272956274" duration="2584000" />
+      <workItem from="1600272956274" duration="3656000" />
     </task>
     <servers />
   </component>
@@ -94,6 +106,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="43" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1600273120304" />
+    <state x="416" y="225" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1600277077936">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="416" y="225" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.768@0.0.1366.768" timestamp="1600277077936" />
+    <state x="394" y="127" key="FileChooserDialogImpl" timestamp="1600277635081">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="394" y="127" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1600277635081" />
     <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1600274915642">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -110,5 +130,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600274915642" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1600277643796">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1600277643796" />
+    <state x="387" y="274" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600277616820">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="387" y="274" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1600277616820" />
   </component>
 </project>
