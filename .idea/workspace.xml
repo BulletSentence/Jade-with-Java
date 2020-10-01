@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b67a537-d0f4-44ba-a1b1-51582ef2d847" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Agents/OperativeAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/AgentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Sudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/SudokuGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/SudokuGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/start.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/start$AgenteComprador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/start$AgenteVendedor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/start.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +59,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CODE\JAVA\JadeJava\src\main\java" />
       <recent name="C:\CODE\JAVA\JadeJava\src\lib" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start" />
+    <configuration name="Boot" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jade.Boot" />
       <module name="JadeJava" />
+      <option name="PROGRAM_PARAMETERS" value="-gui" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.start" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -94,6 +105,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600272949993</updated>
       <workItem from="1600272956274" duration="6302000" />
+      <workItem from="1601401445983" duration="759000" />
+      <workItem from="1601552214328" duration="455000" />
+      <workItem from="1601552706472" duration="4350000" />
     </task>
     <servers />
   </component>
@@ -101,34 +115,58 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="43" key="#Project_Structure" timestamp="1600273120304">
+    <state x="409" y="33" key="#Boot" timestamp="1601556203591">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="43" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1600273120304" />
+    <state x="409" y="33" key="#Boot/0.0.1366.768@0.0.1366.768" timestamp="1601556203591" />
+    <state x="275" y="42" width="816" height="726" key="#Intentions" timestamp="1601555906631">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" width="816" height="726" key="#Intentions/0.0.1366.768@0.0.1366.768" timestamp="1601555906631" />
+    <state x="275" y="43" key="#Project_Structure" timestamp="1601554102322">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="43" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1601554102322" />
+    <state x="274" y="32" width="1092" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601556237728">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="274" y="32" width="1092" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1601556237728" />
     <state x="416" y="225" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1600277077936">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="416" y="225" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.768@0.0.1366.768" timestamp="1600277077936" />
-    <state x="394" y="127" key="FileChooserDialogImpl" timestamp="1600277635081">
+    <state x="600" y="82" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1601555492269">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="394" y="127" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1600277635081" />
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1600283861889">
+    <state x="600" y="82" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.768@0.0.1366.768" timestamp="1601555492269" />
+    <state x="549" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601556058423">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600283861889" />
-    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1600283861889">
+    <state x="549" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1601556058423" />
+    <state x="554" y="126" key="EnvironmentVariablesDialog" timestamp="1601555617233">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600283861889" />
-    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1600283861889">
+    <state x="554" y="126" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1601555617233" />
+    <state x="394" y="127" key="FileChooserDialogImpl" timestamp="1601555179716">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600283861889" />
-    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1600283861889">
+    <state x="394" y="127" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1601555179716" />
+    <state width="1323" height="320" key="GridCell.Tab.0.bottom" timestamp="1601557454954">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600283861889" />
+    <state width="1323" height="320" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601557454954" />
+    <state width="1323" height="320" key="GridCell.Tab.0.center" timestamp="1601557454954">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="320" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601557454954" />
+    <state width="1323" height="320" key="GridCell.Tab.0.left" timestamp="1601557454954">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="320" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601557454954" />
+    <state width="1323" height="320" key="GridCell.Tab.0.right" timestamp="1601557454954">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="320" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601557454954" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1600277643796">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -137,6 +175,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="387" y="274" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1600277616820" />
+    <state x="65" y="0" key="new project wizard" timestamp="1601557449404">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1601557449404" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600280138983">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
